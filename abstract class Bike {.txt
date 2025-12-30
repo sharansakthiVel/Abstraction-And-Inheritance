@@ -1,0 +1,14 @@
+abstract class Bike {
+    abstract void run();
+}
+class duke extends Bike {
+    void run() {
+        System.out.println("Bike running  ");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Bike b = new duke();
+        b.run();
+    }
+}
